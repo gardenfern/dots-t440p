@@ -1,7 +1,8 @@
-{
+[{
 	"layer": "top",
+  "output": "DP-3",
 	"modules-left": ["sway/workspaces", "sway/mode"],
-	"modules-right": ["idle_inhibitor", "network", "pulseaudio", "battery", "clock"],
+	"modules-right": ["idle_inhibitor", "network", "pulseaudio", "clock"],
   
 	"sway/workspaces": { 
     "format": "{icon}",
@@ -61,4 +62,25 @@
     "tooltip": true,
     "tooltip-format": "About {time} til empty",
   },
+},
+{
+	"layer": "top",
+  "output": "DP-4",
+	"modules-left": ["sway/workspaces", "sway/mode"],
+
+	"sway/workspaces": { 
+    "format": "{icon}",
+		"format-icons": {
+			"1": "browser",
+			"2": "term",
+			"3": "work",
+			"4": "games",
+			"5": "media",
+			"6": "music",
+			"7": "chat",
+			"8": "mail",
+			"9": "downloads",
+			"10": "misc"
+		}
+	}
 }]

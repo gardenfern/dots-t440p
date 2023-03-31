@@ -1,5 +1,5 @@
 configuration {
-  modes: "drun,emoji";
+  modes: "drun";
   font: "envypn 10";
   show-icons: true;
 	icon-theme: "Papirus-Dark";
